@@ -17,11 +17,15 @@ def get_kext(kext_path):
 
 def main():
 
-    paths = Path().rglob('*.kext')
-    kexts = list(map(get_kext, paths))
+    kext_paths = Path().rglob('*.kext')
+    kexts = list(map(get_kext, kext_paths))
     kexts = sorted(kexts)
+    driver_paths = Path().cwd() / 'EFI' / 'CLOVER' / 'drivers64UEFI'
+    drivers = driver_paths.glob('*.efi')
+    drivers = sorted([f"* {d.stem}" for d in drivers])
     mark = {
-        'kexts': "\n".join(kexts)
+        'kexts': "\n".join(kexts),
+        'drivers': "\n".join(drivers),
     }
     template = Path('readme-template.md')
     source = template.open('r')

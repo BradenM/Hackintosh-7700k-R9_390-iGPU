@@ -20,3 +20,6 @@ My Personal Hackintosh Build
 
 ### Kexts
 $kexts
+
+### Drivers
+$drivers
