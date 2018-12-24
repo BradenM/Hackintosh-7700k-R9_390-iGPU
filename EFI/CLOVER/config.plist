@@ -75,6 +75,8 @@
 		</dict>
 		<key>FixHeaders</key>
 		<true/>
+		<key>FixMCFG</key>
+		<true/>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -217,7 +219,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 	</dict>
 </dict>
 </plist>
