@@ -19,9 +19,9 @@ My Personal Hackintosh Build
 
 
 ### Kexts
-* AppleALC - v1.3.3
+* AppleALC - v1.3.4
 * HibernationFixup - v1.2.4
-* Lilu - v1.2.9
+* Lilu - v1.3.0
 * NullCPUPowerManagement - v1.0.0d2
 * SMCBatteryManager - v1.0
 * SMCLightSensor - v1.0
