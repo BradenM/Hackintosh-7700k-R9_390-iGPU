@@ -1,4 +1,24 @@
-# [](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.0.0...v) (2018-12-24)
+# [](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.1.0...v) (2018-12-30)
+
+
+
+# [2.1.0](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.0.0...v2.1.0) (2018-12-30)
+
+
+### 🐛 Bug Fixes
+
+* **AppleALC:** Updated AppleALC to v1.3.4 ([a7e9f6a](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/a7e9f6a))
+* **Lilu:** Updated to v1.3.0 ([b10a89e](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/b10a89e))
+
+
+### 📚 Documentation
+
+* **README:** Updated Readme ([d7106be](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/d7106be))
+
+
+### ♻️ Chores
+
+* **release:** Release v2.1.0 ([7373362](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/7373362))
 
 
 
