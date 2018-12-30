@@ -2,6 +2,8 @@
 
 My Personal Hackintosh Build
 
+**Current MacOS**: Mojave (v10.14)
+
 ### Main Specs
 * **Processor:** Intel i7-7700k Processor
 * **GPU:** MSI R9 390 
