@@ -1,4 +1,31 @@
-# [](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.1.0...v) (2018-12-30)
+# [](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.2.0...v) (2019-01-01)
+
+
+
+# [2.2.0](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.1.0...v2.2.0) (2019-01-01)
+
+
+### 🐛 Bug Fixes
+
+* **Drivers:** Added NTFS-64 Driver to prevent boot hang due to NTFS d... ([0364bca](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/0364bca))
+* **Kexts:** Update Lilu to v1.3.1 ([d6b1d2f](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/d6b1d2f))
+* **Kexts:** Updated WhateverGreen to v1.2.6 ([7097494](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/7097494))
+
+
+### 🚀 Performance Improvements
+
+* **VirtualSMC:** Remove unused VirtualSMC Sensors ([4242c8c](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/4242c8c))
+
+
+### 📚 Documentation
+
+* **Readme:** Added macOS Version to README ([2fcaf3e](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/2fcaf3e))
+* **README:** Updated README ([dbccdc4](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/dbccdc4))
+
+
+### ♻️ Chores
+
+* **release:** Release v2.2.0 ([bd6ee82](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/bd6ee82))
 
 
 
@@ -18,7 +45,7 @@
 
 ### ♻️ Chores
 
-* **release:** Release v2.1.0 ([7373362](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/7373362))
+* **release:** Release v2.1.0 ([9dfc4e9](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/9dfc4e9))
 
 
 
