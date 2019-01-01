@@ -23,15 +23,13 @@ My Personal Hackintosh Build
 ### Kexts
 * AppleALC - v1.3.4
 * HibernationFixup - v1.2.4
-* Lilu - v1.3.0
+* Lilu - v1.3.1
 * NullCPUPowerManagement - v1.0.0d2
-* SMCBatteryManager - v1.0
-* SMCLightSensor - v1.0
 * SMCProcessor - v1.0.2
 * SMCSuperIO - v1.0.2
 * USBInjectAll - v0.7.1
 * VirtualSMC - v1.0.2
-* WhateverGreen - v1.2.5
+* WhateverGreen - v1.2.6
 
 ### Drivers
 * ApfsDriverLoader-64
@@ -42,6 +40,7 @@ My Personal Hackintosh Build
 * FSInject-64
 * Fat-64
 * HFSPlus-64
+* NTFS-64
 * PartitionDxe-64
 * UsbKbDxe-64
 * VirtualSmc
