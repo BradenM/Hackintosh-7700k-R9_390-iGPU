@@ -21,8 +21,12 @@ My Personal Hackintosh Build
 
 
 ### Kexts
+* AHCI_Intel_Generic_SATA - v0.4
 * AppleALC - v1.3.4
+* CodecCommander - v2.7.1
+* GenericUSBXHCI - v1.2.11
 * HibernationFixup - v1.2.4
+* IntelMausiEthernet - v2.4.0
 * Lilu - v1.3.1
 * NullCPUPowerManagement - v1.0.0d2
 * SMCProcessor - v1.0.2
@@ -30,6 +34,8 @@ My Personal Hackintosh Build
 * USBInjectAll - v0.7.1
 * VirtualSMC - v1.0.2
 * WhateverGreen - v1.2.6
+* intelhaxm - v7.3.0
+* realtekALC - v2.0-toledaALC-130
 
 ### Drivers
 * ApfsDriverLoader-64
