@@ -1,4 +1,26 @@
-# [](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.2.0...v) (2019-01-01)
+# [](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.3.0...v) (2019-03-15)
+
+
+
+# [2.3.0](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/compare/v2.2.0...v2.3.0) (2019-03-15)
+
+
+### ✨ Features
+
+* **clover:** Updated Clover to 2.4k r4895 ([9dc0f52](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/9dc0f52))
+* **kexts:** Updated AppleALC ([624fb7a](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/624fb7a))
+* **Kexts:** Updated Lilu ([6cce55a](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/6cce55a))
+
+
+### 🐛 Bug Fixes
+
+* **kexts:** Added Missing Kexts ([f154dd4](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/f154dd4))
+
+
+### 📚 Documentation
+
+* Updated README with missing Kexts ([85bc795](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/85bc795))
+* Updated README, Added Clover Version ([9e7e62b](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/9e7e62b))
 
 
 
@@ -25,7 +47,7 @@
 
 ### ♻️ Chores
 
-* **release:** Release v2.2.0 ([bd6ee82](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/bd6ee82))
+* **release:** Release v2.2.0 ([eb883c0](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU/commit/eb883c0))
 
 
 
