@@ -15,17 +15,27 @@ def get_kext(kext_path):
     return kext
 
 
-def main():
+def get_clover(log_path):
+    with log_path.open("r") as f:
+        version_line = f.readlines()[2:3][0]
+    version = version_line.lstrip("Installer version:")
+    version = version.rstrip("EFI bootloader\n")
+    return version
 
+
+def main():
     kext_paths = Path().rglob('*.kext')
     kexts = list(map(get_kext, kext_paths))
     kexts = sorted(kexts)
     driver_paths = Path().cwd() / 'EFI' / 'CLOVER' / 'drivers64UEFI'
     drivers = driver_paths.glob('*.efi')
     drivers = sorted([f"* {d.stem}" for d in drivers])
+    clover_log = Path().cwd() / 'EFI' / 'Clover_Install_Log.txt'
+    clover_version = get_clover(clover_log)
     mark = {
         'kexts': "\n".join(kexts),
         'drivers': "\n".join(drivers),
+        'clover': clover_version
     }
     template = Path('readme-template.md')
     source = template.open('r')

@@ -3,6 +3,7 @@
 My Personal Hackintosh Build
 
 **Current MacOS**: Mojave (v10.14)
+**Clover Version**: $clover
 
 ### Main Specs
 * **Processor:** Intel i7-7700k Processor

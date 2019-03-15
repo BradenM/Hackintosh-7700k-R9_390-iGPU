@@ -3,6 +3,7 @@
 My Personal Hackintosh Build
 
 **Current MacOS**: Mojave (v10.14)
+**Clover Version**: 2.4k r4895
 
 ### Main Specs
 * **Processor:** Intel i7-7700k Processor
@@ -22,12 +23,12 @@ My Personal Hackintosh Build
 
 ### Kexts
 * AHCI_Intel_Generic_SATA - v0.4
-* AppleALC - v1.3.4
+* AppleALC - v1.3.5
 * CodecCommander - v2.7.1
 * GenericUSBXHCI - v1.2.11
 * HibernationFixup - v1.2.4
 * IntelMausiEthernet - v2.4.0
-* Lilu - v1.3.1
+* Lilu - v1.3.4
 * NullCPUPowerManagement - v1.0.0d2
 * SMCProcessor - v1.0.2
 * SMCSuperIO - v1.0.2
@@ -42,6 +43,7 @@ My Personal Hackintosh Build
 * AppleImageLoader-64
 * AptioInputFix-64
 * AptioMemoryFix-64
+* AudioDxe-64
 * DataHubDxe-64
 * FSInject-64
 * Fat-64
