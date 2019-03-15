@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sun Dec 23 16:54:28 CST 2018
-Installer version: v2.4k r4701.RM-4963.ca6cca7c EFI bootloader
+Clover EFI installer log - Thu Mar 14 21:33:17 CDT 2019
+Installer version: v2.4k r4895 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -21,7 +21,7 @@ Installer version: v2.4k r4701.RM-4963.ca6cca7c EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +479.9 GB   disk2
                                  Physical Store disk1s2
-   1:                APFS Volume Macintosh HD            228.7 GB   disk2s1
+   1:                APFS Volume Macintosh HD            275.7 GB   disk2s1
    2:                APFS Volume Preboot                 45.4 MB    disk2s2
    3:                APFS Volume Recovery                512.4 MB   disk2s3
    4:                APFS Volume VM                      2.1 GB     disk2s4
@@ -30,7 +30,7 @@ Target volume /Volumes/Macintosh HD on disk2 is APFS on physical store disk1s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r4798/2018-12-23-16h54/EFI
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r4701/2019-03-14-21h33/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
@@ -38,6 +38,8 @@ Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
 
 Removing drivers64UEFI/SMCHelper-64.efi driver because VirtualSMC driver present
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
 
 ======================================================
 =========== Clover EFI Installation Finish ===========
